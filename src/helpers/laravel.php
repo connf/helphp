@@ -1,7 +1,5 @@
 <?php
 
-namespace Connf\HelPHP\Laravel;
-
 /**
  * Laravel custom helper functions
  * British colloquialisms
@@ -14,7 +12,6 @@ if (!function_exists('out')) {
 	}
 }
 
-
 if (!function_exists('output')) {
 	function output($d)
 	{
@@ -26,5 +23,12 @@ if (!function_exists('dout')) {
 	function dout($d)
 	{
 		return dd($d);
+	}
+}
+
+if (!function_exists('debout')) {
+	function debout($d)
+	{
+		return ddd($d);
 	}
 }
