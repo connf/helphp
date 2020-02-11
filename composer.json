@@ -1,0 +1,26 @@
+{
+	"name": "connf/helphp",
+	"description": "HelPHP - Custom en-GB Helper Functions for PHP",
+	"keywords":["helphp","php helpers","php","helpers","helper","functions"],
+	"homepage":"http://github.com/connf/helphp",
+	"license":"MIT",
+	"authors":[
+		{
+			"name":"Connah Fearnley",
+			"homepage":"https://github.com/connf",
+			"role":"Developer"
+		}
+	],
+	"support": {
+		"email":"developer@cmcrm.co.uk",
+		"url":"http://github.com/connf/helphp"
+	},
+	"require":{
+		"php":">=5.4.0"
+	},
+	"autoload":{
+		"psr-4":{
+			"Connf\\HelPHP\\":"src/"
+		}
+	}
+}
